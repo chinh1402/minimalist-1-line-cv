@@ -1,0 +1,1 @@
+[![Minimalist CV](https://github.com/chinh1402/minimalist-1-line-cv/blob/main/minimalist_chinh_cv_eng-1.png)](https://github.com/chinh1402/minimalist-1-line-cv/blob/main/minimalist_chinh_cv_eng-1.png)
