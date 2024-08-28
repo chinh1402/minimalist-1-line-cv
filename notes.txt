@@ -1,0 +1,3 @@
+use LuaLaTeX compiler to run Viet version.
+
+Because pdfLaTeX doesn't support utf-8 by design.

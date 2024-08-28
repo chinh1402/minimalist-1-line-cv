@@ -1,0 +1,188 @@
+%-------------------------
+% Resume in Latex
+% Author : Nguyen Duc Chinh
+% Website: https://github.com/chinh1402
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://github.com/chinh1402}{\Large Nguyễn Đức Chính}} & Email: \href{mailto:ndchinh2003@gmail.com}{ndchinh2003@gmail.com}\\
+  \href{https://github.com/chinh1402}{https://github.com/chinh1402} & Số điện thoại: 0964698809 \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Học vấn}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Đại học công nghệ giao thông vận tải}{Triều Khúc, Thanh Xuân}
+      {Sinh viên năm 4}{09/2021 -- Hiện tại}
+    \resumeSubheading
+      {\href{https://fullstack.edu.vn/}{F8}}{Học trực tuyến}
+      {Lập trình web fullstack}{2022 -- Hiện tại}
+  \resumeSubHeadingListEnd
+
+
+%-----------Projects-----------------
+\section{Dự án}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Motivational Quotes}{Dự án cá nhân}
+      {Thiết kế, xây dựng backend}{06/2024 -- Hiện tại}
+      \resumeItemListStart
+        \resumeItem{Tổng quan dự án}
+          {Thiết kế và phát triển một trang web đưa ra các câu trích dẫn của nhân vật nổi tiếng; quản trị viên quản lý các câu trích dẫn, dịch vụ emails hàng ngày, thông tin người dùng; người dùng có thể xem các trích dẫn hàng ngày trên trang web, duyệt trích dẫn và đăng ký nhận email hàng ngày}
+        \resumeItem{Công nghệ sử dụng}
+          {Node.js, Express.js, Javascript, MongoDB, Figma, React, Vite, TailwindCSS.}
+        \resumeItem{Link dự án}
+  {{\href{https://github.com/chinh1402/Motivational-quotes}{GitHub}} | {\href{https://tinyurl.com/2ma7brmn}{Figma Prototype}}}
+
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Swiftbitty}{Dự án cá nhân}
+      {Thiết kế, xây dựng frontend cho trang web Swiftbitty}{06/2023 -- 09/2023}
+      \resumeItemListStart
+        \resumeItem{Tổng quan dự án}
+          {Thiết kế và xây dựng frontend cho một cửa hàng bán dồ ăn nhanh với các chức năng: đặt đồ ăn, đặt chỗ, thanh toán qua cổng VNPay}
+        \resumeItem{Công nghệ sử dụng}
+          {Next.js, React.js, CSS, Javascript, Figma.}
+        \resumeItem{Link dự án}
+          {\href{https://github.com/chinh1402/swiftbitty}{GitHub} | \href{https://swiftbitty.vercel.app/}{Deployment}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Coza-shop}{Dự án nhóm}
+      {Hỗ trợ xây dựng backend}{08/2023 -- 09/2023}
+      \resumeItemListStart
+        
+        \resumeItem{Tổng quan dự án}
+          {Trang web bán đồ ăn, quản trị viên có thể quản lý thực đơn, phân loại đồ ăn, quản lý đơn hàng và xem phân tích doanh thu. Hệ thống web triển khai phân quyền người dùng và quản trị viên.}
+        \resumeItem{Công nghệ sử dụng}
+          {HTML, CSS, Bootstrap4, PHP, MySQL}
+        \resumeItem{Thành viên tham gia}
+          {4}
+        \resumeItem{Link dự án}
+          {\href{https://github.com/ngoclinh8123/coza-shop}{GitHub}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Rollcall Discord Bot}{Dự án cá nhân}
+      {Xây dựng, cấu hình discord bot}{03/2023 -- 06/2023}
+      \resumeItemListStart
+        \resumeItem{Tổng quan dự án}
+          {Phát triển bot discord giúp việc điểm danh hàng ngày trở nên dễ dàng hơn mỗi khi vào discord. Hỗ trợ điểm danh cho 2 người}
+        \resumeItem{Công nghệ sử dụng}
+          {Javascript}
+        \resumeItem{Link dự án}
+          {\href{https://github.com/chinh1402/rollcall__discordbot/}{GitHub}}
+      \resumeItemListEnd
+
+     \resumeSubheading
+      {Todolist Webapp}{Dự án cá nhân}
+      {Xây dựng theo hướng dẫn}{10/2022 -- 11/2022}
+      \resumeItemListStart
+        \resumeItem{Tổng quan dự án}
+          {Web quản lý các việc cần làm sử dụng CRUD. Thông tin lưu trên trình duyệt}
+        \resumeItem{Công nghệ sử dụng}
+          {HTML, CSS, Javascript.}
+        \resumeItem{Link dự án}
+          {\href{https://github.com/chinh1402/todoApp}{GitHub} | \href{https://chinh1402.github.io/todoApp/}{Deployment}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Frontend Mentor Challenges}{Dự án cá nhân}
+      {Xây dựng frontend từ design cho sẵn}{05/2023 -- 09/2023}
+      \resumeItemListStart
+        \resumeItem{Tổng quan dự án}
+          {Viết code để xây dựng giao diện từ những design cho sẵn}
+        \resumeItem{Công nghệ sử dụng}
+          {Next.js, HTML, CSS (SCSS), Bootstrap, Javascript, React, TailwindCSS.}
+        \resumeItem{Link dự án}
+          {\href{https://github.com/chinh1402/fementor.io-projects}{GitHub}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\section{Kĩ năng}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Công nghệ đã sử dụng}{: HTML, CSS, Javascript, Node.js, Express.js, MongoDB, React.js, Next.js, Figma, Git, Bootstrap, TailwindCSS}
+   }
+ \resumeSubHeadingListEnd
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Trình độ tiếng anh}{: Có thể đọc, hiểu, giao tiếp được bằng tiếng anh}
+}
+   }
+ \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
